@@ -1,0 +1,72 @@
+body {
+	background:#fff;
+	color: black;
+	font: normal 16px Helvetica, Arial !important;
+	background-position: left center;
+	background-size: cover;
+	padding: 40px;
+}
+
+body#index {
+	background:#222;
+	text-align: center;
+	color: white;
+	font: normal 16px Helvetica, Arial !important;	
+	background-position: left center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 40px;
+}
+
+a {
+	color: #ccc;
+}
+
+a:hover {
+	color: #fff;
+}
+
+img.avatar  {
+	margin-bottom: 12px;
+}
+
+h1 {
+	font: normal 54px Helvetica, Arial !important;
+}
+
+h3 {
+	font: normal 28px Helvetica, Arial !important;
+	margin-top: -6px;
+}
+
+ul.social-contacts {
+	list-style: none;
+	padding: 10px 0px 0px 0px;
+	
+	width:260px;
+	height: 32px;
+	text-align: center;
+	margin: -18px auto 0px auto;
+}
+
+.social-contacts li {
+	display:inline;
+	padding: 0px 8px 0px 8px;
+}
+
+#footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+   background:rgba(150, 150, 150, 0.5);
+   text-align: left;
+   padding: 10px 40px 0px 40px;
+}
+
+/* IE 6 */
+* html #footer {
+   position:absolute;
+   top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
+}
